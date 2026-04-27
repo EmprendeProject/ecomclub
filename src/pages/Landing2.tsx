@@ -1,6 +1,7 @@
 import titleImg from '../assets/titulo taller dropshipping.png'
 import ecomDropiImg from '../assets/ecom + dropi.png'
 import ponentesImg from '../assets/ponentes.png'
+import manosImg from '../assets/manos.png'
 import EventCarousel from '../components/EventCarousel'
 import './Landing2.css'
 
@@ -50,8 +51,15 @@ function Landing2() {
               alt="Taller Dropshipping Vende en Venezuela sin Inventario"
               style={{ width: '100%', maxWidth: '700px', marginBottom: '24px', filter: 'drop-shadow(0 0 20px rgba(157, 78, 221, 0.4))' }}
             />
-            <EventCarousel />
-            <a href="#comprar2" className="l2-btn">COMPRAR ENTRADA - 15$</a>
+            <img
+              src={manosImg}
+              alt="Manos"
+              style={{ width: '100%', maxWidth: '800px', marginBottom: '24px', borderRadius: '16px', filter: 'drop-shadow(0 0 20px rgba(157, 78, 221, 0.2))' }}
+            />
+            <a href="#comprar2" className="l2-btn" style={{ marginBottom: '16px' }}>COMPRAR ENTRADA - 15$</a>
+            <div style={{ display: 'inline-block', padding: '10px 20px', background: 'rgba(157, 78, 221, 0.1)', borderRadius: '8px', border: '1px solid rgba(157, 78, 221, 0.3)', color: '#e0e0e0', fontSize: '15px', fontWeight: '600', letterSpacing: '1px', textTransform: 'uppercase' }}>
+              TICKET: 15$ BCV
+            </div>
             <img
               src={ecomDropiImg}
               alt="Ecom + Dropi"
@@ -63,7 +71,7 @@ function Landing2() {
 
 
         {/* Ponentes Section */}
-        <section style={{ textAlign: 'center', margin: '20px 0 60px 0' }}>
+        <section style={{ textAlign: 'center', margin: '10px 0 40px 0' }}>
           <img 
             src={ponentesImg} 
             alt="Ponentes" 
@@ -86,8 +94,21 @@ function Landing2() {
           </div>
         </section>
 
+        {/* Callout Section */}
+        <section className="l2-section" style={{ margin: '50px 0', textAlign: 'center' }}>
+          <h2 className="l2-section-title" style={{ maxWidth: '800px', margin: '0 auto 20px auto', lineHeight: '1.4', fontSize: 'clamp(28px, 4vw, 40px)' }}>
+            ¿Estás listo para montarte en la nueva <span className="l2-highlight">OLA</span> de la economía digital en Venezuela?
+          </h2>
+          <img 
+            src="https://i0.wp.com/passporterapp.com/es/blog/wp-content/uploads/2023/06/que-ver-en-Caracas.jpg?w=1621&ssl=1" 
+            alt="Caracas" 
+            style={{ width: '100%', maxWidth: '900px', borderRadius: '24px', boxShadow: '0 0 40px rgba(157, 78, 221, 0.3)' }} 
+          />
+        </section>
+
         {/* Benefits Section */}
         <section className="l2-section">
+          <div style={{ fontSize: '80px', marginBottom: '10px', lineHeight: 1, filter: 'drop-shadow(0 0 20px rgba(255,255,255,0.2))' }}>🫵🏼</div>
           <h2 className="l2-section-title">ESTO ES PARA TI SI:</h2>
           <div className="l2-benefits-grid">
             {benefits.map((benefit, index) => (
@@ -101,7 +122,9 @@ function Landing2() {
 
         {/* Syllabus Section */}
         <section className="l2-section">
-          <h2 className="l2-section-title">TEMARIO</h2>
+          <h2 className="l2-section-title" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '15px' }}>
+            <span style={{ fontSize: '50px', filter: 'drop-shadow(0 0 10px rgba(255,255,255,0.2))' }}>📝</span> TEMARIO
+          </h2>
           <div className="l2-grid">
             {syllabus.map((item, index) => (
               <div key={index} className="l2-grid-item">
@@ -116,6 +139,11 @@ function Landing2() {
         <section id="comprar2" className="l2-card l2-cta">
           <h2 style={{ fontSize: '36px', marginBottom: '30px' }}>CUPOS LIMITADOS! ASEGURA TU CUPO HOY MISMO</h2>
           <a href="#" className="l2-btn" style={{ fontSize: '18px', padding: '20px 50px' }}>QUIERO ASEGURAR MI CUPO</a>
+        </section>
+
+        {/* Footer Carousel */}
+        <section className="l2-section" style={{ marginTop: '40px', marginBottom: '60px' }}>
+          <EventCarousel />
         </section>
 
       </div>
