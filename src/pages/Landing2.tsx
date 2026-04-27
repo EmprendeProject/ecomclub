@@ -7,11 +7,9 @@ import './Landing2.css'
 
 function Landing2() {
   const cities = [
-    { name: 'Caracas', status: 'active', info: '25 DE MAYO - HOTEL EUROBUILDING' },
-    { name: 'Valencia', status: 'blocked', info: 'PRONTO MÁS INFO' },
-    { name: 'Cúcuta', status: 'blocked', info: 'PRONTO MÁS INFO' },
-    { name: 'Barquisimeto', status: 'blocked', info: 'PRONTO MÁS INFO' },
-    { name: 'Barcelona, Anzoátegui', status: 'blocked', info: 'PRONTO MÁS INFO' },
+    { name: 'Caracas', status: 'active', info: '9 DE MAYO - TORRE MOVILNET' },
+    { name: 'Valencia', status: 'active', info: '16 DE MAYO' },
+    { name: 'Cúcuta', status: 'active', info: '23 DE MAYO' },
   ];
 
   const benefits = [
