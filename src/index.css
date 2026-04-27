@@ -1,3 +1,19 @@
+@font-face {
+  font-family: 'Garet';
+  src: url('./assets/Spacetype - Garet Book.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Garet';
+  src: url('./assets/Spacetype - Garet Heavy.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --text: #a1a1aa; /* Light gray text */
   --text-h: #ffffff; /* Pure white headings */
@@ -12,7 +28,7 @@
   --glass-border: rgba(255, 255, 255, 0.05);
   --card-bg: #0a0a0a;
   
-  --sans: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --sans: 'Garet', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 body {
@@ -36,11 +52,11 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--sans);
+  font-family: 'Garet', sans-serif;
   color: var(--text-h);
   margin: 0;
   line-height: 1.2;
-  font-weight: 500;
+  font-weight: 700;
   letter-spacing: -0.02em;
 }
 
