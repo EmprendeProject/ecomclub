@@ -42,7 +42,7 @@ function Landing2() {
         <section className="l2-hero">
           <div className="l2-hero-text">
             <div className="l2-badge">
-              <span>✦</span> GIRA NACIONAL
+              <span>✦</span> GIRA NACIONAL E INTERNACIONAL
             </div>
             <img
               src={titleImg}
