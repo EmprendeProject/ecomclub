@@ -1,5 +1,6 @@
 import titleImg from '../assets/titulo taller dropshipping.png'
 import ecomDropiImg from '../assets/ecom + dropi.png'
+import ponentesImg from '../assets/ponentes.png'
 import EventCarousel from '../components/EventCarousel'
 import './Landing2.css'
 
@@ -39,7 +40,7 @@ function Landing2() {
       <div className="landing2-container">
 
         {/* Hero Section */}
-        <section className="l2-hero">
+        <section className="l2-hero" style={{ paddingBottom: '20px' }}>
           <div className="l2-hero-text">
             <div className="l2-badge">
               <span>✦</span> GIRA NACIONAL E INTERNACIONAL
@@ -50,7 +51,7 @@ function Landing2() {
               style={{ width: '100%', maxWidth: '700px', marginBottom: '24px', filter: 'drop-shadow(0 0 20px rgba(157, 78, 221, 0.4))' }}
             />
             <EventCarousel />
-            <a href="#comprar2" className="l2-btn">COMPRAR ENTRADA</a>
+            <a href="#comprar2" className="l2-btn">COMPRAR ENTRADA - 15$</a>
             <img
               src={ecomDropiImg}
               alt="Ecom + Dropi"
@@ -59,11 +60,15 @@ function Landing2() {
           </div>
         </section>
 
-        {/* Pricing Section */}
-        <section className="l2-pricing l2-card">
-          <div style={{ color: 'var(--l2-secondary)', fontWeight: 600, marginBottom: '10px' }}>VALOR DE LA ENTRADA</div>
-          <div className="l2-price-val">$15</div>
-          <div style={{ color: '#aaa' }}>A TASA BCV</div>
+
+
+        {/* Ponentes Section */}
+        <section style={{ textAlign: 'center', margin: '20px 0 60px 0' }}>
+          <img 
+            src={ponentesImg} 
+            alt="Ponentes" 
+            style={{ width: '100%', maxWidth: '800px', borderRadius: '16px', filter: 'drop-shadow(0 0 20px rgba(157, 78, 221, 0.2))' }} 
+          />
         </section>
 
         {/* Cities Section */}
