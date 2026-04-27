@@ -36,26 +36,26 @@ function Landing2() {
       <div className="l2-star" style={{ top: '10%', left: '15%' }}></div>
       <div className="l2-star" style={{ top: '30%', right: '10%', animationDelay: '1s' }}></div>
       <div className="l2-star" style={{ top: '60%', left: '5%', animationDelay: '0.5s' }}></div>
-      
+
       <div className="landing2-container">
-        
+
         {/* Hero Section */}
         <section className="l2-hero">
           <div className="l2-hero-text">
             <div className="l2-badge">
-              <span>✦</span> NUEVO MODELO DE NEGOCIO
+              <span>✦</span> GIRA NACIONAL
             </div>
-            <img 
-              src={titleImg} 
-              alt="Taller Dropshipping Vende en Venezuela sin Inventario" 
-              style={{ width: '100%', maxWidth: '700px', marginBottom: '24px', filter: 'drop-shadow(0 0 20px rgba(157, 78, 221, 0.4))' }} 
+            <img
+              src={titleImg}
+              alt="Taller Dropshipping Vende en Venezuela sin Inventario"
+              style={{ width: '100%', maxWidth: '700px', marginBottom: '24px', filter: 'drop-shadow(0 0 20px rgba(157, 78, 221, 0.4))' }}
             />
             <EventCarousel />
             <a href="#comprar2" className="l2-btn">COMPRAR ENTRADA</a>
-            <img 
-              src={ecomDropiImg} 
-              alt="Ecom + Dropi" 
-              style={{ width: '100%', maxWidth: '350px', marginTop: '12px' }} 
+            <img
+              src={ecomDropiImg}
+              alt="Ecom + Dropi"
+              style={{ width: '100%', maxWidth: '280px', marginTop: '24px' }}
             />
           </div>
         </section>
@@ -97,7 +97,7 @@ function Landing2() {
 
         {/* Syllabus Section */}
         <section className="l2-section">
-          <h2 className="l2-section-title">TEMARIO DEL TALLER</h2>
+          <h2 className="l2-section-title">TEMARIO</h2>
           <div className="l2-grid">
             {syllabus.map((item, index) => (
               <div key={index} className="l2-grid-item">

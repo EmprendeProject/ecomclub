@@ -164,7 +164,7 @@
 
 .l2-btn {
   display: inline-block;
-  padding: 16px 40px;
+  padding: 18px 80px;
   background: linear-gradient(135deg, var(--l2-accent), #7209b7);
   color: #fff;
   font-weight: 700;
@@ -203,11 +203,11 @@
   text-align: center;
 }
 
-.l2-section-title {
+.landing2 .l2-section-title {
   font-size: 36px;
   text-align: center;
-  margin-bottom: 60px;
-  display: inline-block;
+  margin-bottom: 80px;
+  display: block;
   position: relative;
   font-weight: 800;
   color: var(--l2-text-h);

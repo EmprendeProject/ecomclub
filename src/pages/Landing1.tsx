@@ -34,17 +34,17 @@ function Landing1() {
       <section className="hero-section">
         <div className="title-badge">NUEVO MODELO DE NEGOCIO</div>
         <h1 className="main-title">
-          TALLER DROPSHIPPING<br/>
-          <span className="highlight">Vende en VENEZUELA</span><br/>
+          TALLER DROPSHIPPING<br />
+          <span className="highlight">Vende en VENEZUELA</span><br />
           sin INVENTARIO.
         </h1>
-        
+
         <div className="hero-content">
           <div className="hero-image-container">
             <div className="hero-image-glow"></div>
             <img src={heroImg} alt="Dropshipping E-commerce" className="hero-image" />
           </div>
-          <a href="#comprar" className="btn btn-primary">COMPRAR ENTRADA</a>
+          <a href="#comprar" className="btn btn-primary">COMPRAR ENTRADA 15$ BCV</a>
         </div>
       </section>
 
@@ -96,7 +96,7 @@ function Landing1() {
 
       {/* Syllabus Section */}
       <section className="syllabus-section">
-        <h2 className="section-title">TEMARIO DEL TALLER</h2>
+        <h2 className="section-title">TEMARIO</h2>
         <div className="syllabus-grid">
           {syllabus.map((item, index) => (
             <div key={index} className="syllabus-item">

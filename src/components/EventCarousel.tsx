@@ -1,15 +1,14 @@
 import { useState, useEffect } from 'react';
+import foto1 from '../assets/fotos/1.jpg';
+import foto2 from '../assets/fotos/2.jpg';
+import foto3 from '../assets/fotos/3.jpg';
+import foto4 from '../assets/fotos/4.jpg';
 import './EventCarousel.css';
 
 export default function EventCarousel() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  // Placeholders for event photos. The user can replace these URLs with real images.
-  const images = [
-    "https://placehold.co/600x400/2a1055/ffffff?text=Foto+del+Evento+1",
-    "https://placehold.co/600x400/140a2d/00f5d4?text=Foto+del+Evento+2",
-    "https://placehold.co/600x400/9d4edd/ffffff?text=Foto+del+Evento+3"
-  ];
+  const images = [foto1, foto2, foto3, foto4];
 
   useEffect(() => {
     const timer = setInterval(() => {
