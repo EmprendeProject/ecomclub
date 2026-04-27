@@ -1,4 +1,3 @@
-import heroImg from '../assets/hero-tech.png'
 import titleImg from '../assets/titulo taller dropshipping.png'
 import ecomDropiImg from '../assets/ecom + dropi.png'
 import EventCarousel from '../components/EventCarousel'
