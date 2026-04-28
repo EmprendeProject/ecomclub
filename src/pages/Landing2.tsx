@@ -10,6 +10,9 @@ function Landing2() {
     { name: 'Caracas', status: 'active', info: '9 DE MAYO - TORRE MOVILNET' },
     { name: 'Valencia', status: 'active', info: '16 DE MAYO' },
     { name: 'Cúcuta', status: 'active', info: '23 DE MAYO' },
+    { name: 'Barquisimeto', status: 'blocked', info: 'PRÓXIMAMENTE' },
+    { name: 'Barcelona', status: 'blocked', info: 'PRÓXIMAMENTE' },
+    { name: 'Maracaibo', status: 'blocked', info: 'PRÓXIMAMENTE' },
   ];
 
   const benefits = [
