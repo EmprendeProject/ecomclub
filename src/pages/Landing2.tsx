@@ -57,7 +57,7 @@ function Landing2() {
               alt="Manos"
               style={{ width: '100%', maxWidth: '800px', marginBottom: '24px', borderRadius: '16px', filter: 'drop-shadow(0 0 20px rgba(157, 78, 221, 0.2))' }}
             />
-            <a href="https://wa.me/584220282663?text=Hola!%20Quiero%20comprar%20mi%20entrada%20para%20el%20taller%20de%20dropshipping" target="_blank" rel="noopener noreferrer" className="l2-btn" style={{ marginBottom: '16px' }}>COMPRAR ENTRADA - 15$</a>
+            <a href="https://wa.me/584220282663?text=Hola!%20Quiero%20comprar%20mi%20entrada%20para%20el%20taller%20de%20dropshipping" target="_blank" rel="noopener noreferrer" className="l2-btn" style={{ marginBottom: '16px' }} onClick={() => { if (typeof window !== 'undefined' && (window as any).fbq) { (window as any).fbq('track', 'Lead'); } }}>COMPRAR ENTRADA - 15$</a>
             <div style={{ display: 'inline-block', padding: '10px 20px', background: 'rgba(157, 78, 221, 0.1)', borderRadius: '8px', border: '1px solid rgba(157, 78, 221, 0.3)', color: '#e0e0e0', fontSize: '15px', fontWeight: '600', letterSpacing: '1px', textTransform: 'uppercase' }}>
               VALOR DE LA ENTRADA: 15$ BCV
             </div>
@@ -139,7 +139,7 @@ function Landing2() {
         {/* CTA Footer */}
         <section id="comprar2" className="l2-card l2-cta">
           <h2 style={{ fontSize: '36px', marginBottom: '30px' }}>CUPOS LIMITADOS! ASEGURA TU CUPO HOY MISMO</h2>
-          <a href="https://wa.me/584220282663?text=Hola!%20Quiero%20comprar%20mi%20entrada%20para%20el%20taller%20de%20dropshipping" target="_blank" rel="noopener noreferrer" className="l2-btn" style={{ fontSize: '18px', padding: '20px 50px' }}>QUIERO ASEGURAR MI CUPO</a>
+          <a href="https://wa.me/584220282663?text=Hola!%20Quiero%20comprar%20mi%20entrada%20para%20el%20taller%20de%20dropshipping" target="_blank" rel="noopener noreferrer" className="l2-btn" style={{ fontSize: '18px', padding: '20px 50px' }} onClick={() => { if (typeof window !== 'undefined' && (window as any).fbq) { (window as any).fbq('track', 'Lead'); } }}>QUIERO ASEGURAR MI CUPO</a>
         </section>
 
         {/* Footer Carousel */}
