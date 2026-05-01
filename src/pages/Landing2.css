@@ -59,7 +59,7 @@
 
 /* Typography */
 .landing2 h1, .landing2 h2, .landing2 h3 {
-  font-family: var(--sans);
+  font-family: 'Helvetica', Arial, sans-serif;
   color: var(--l2-text-h);
   line-height: 1.1;
   margin: 0;
